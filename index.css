@@ -1,0 +1,29 @@
+/* Custom Scrollbar Styles for Dark Mode */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a; /* gray-900 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #334155; /* gray-700 */
+  border-radius: 9999px;
+  border: 2px solid #0f172a; /* gray-900, creates padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #475569; /* gray-600 */
+}
+
+::-webkit-scrollbar-corner {
+  background: #0f172a;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 #0f172a;
+}
