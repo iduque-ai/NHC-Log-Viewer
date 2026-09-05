@@ -389,7 +389,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   return (
     <aside className="w-60 bg-gray-800 flex flex-col p-2 border-r border-gray-700 h-full text-xs overflow-hidden">
       <div className="flex justify-between items-center mb-2">
-        <h1 className="text-base font-bold text-white truncate">NHC Log Viewer</h1>
+        <h1 className="text-base font-bold text-white truncate">NHC Log Viewer 2.0</h1>
         <div className="flex items-center">
             <button 
                onClick={onCollapse}

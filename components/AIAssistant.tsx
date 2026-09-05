@@ -1157,7 +1157,7 @@ export const AIAssistant: React.FC<AIAssistantProps> = ({ onClose, visibleLogs, 
     
     const ai = new GoogleGenAI({ apiKey });
 
-    let systemPrompt = `You are a Principal Reliability & Systems Engineer embedded in the NHC Log Viewer. Your goal is to analyze logs, trace multi-daemon failure cascades, and deliver high-precision root cause investigations.
+    let systemPrompt = `You are a Principal Reliability & Systems Engineer embedded in the NHC Log Viewer 2.0. Your goal is to analyze logs, trace multi-daemon failure cascades, and deliver high-precision root cause investigations.
 
 # STRUCTURED INCIDENT ANALYSIS FORMAT
 When the user asks for root cause analysis, error investigation, or troubleshooting, structure your response clearly using these sections:

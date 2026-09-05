@@ -1,8 +1,8 @@
-# NHC Log Viewer
+# NHC Log Viewer 2.0
 
 ## Overview
 
-NHC Log Viewer is an interactive web application designed to parse, filter, and analyze application log files. Built with performance and privacy in mind, it processes all data locally in your browser, no logs are ever uploaded to a server.
+NHC Log Viewer 2.0 is an interactive web application designed to parse, filter, and analyze application log files. Built with performance and privacy in mind, it processes all data locally in your browser, no logs are ever uploaded to a server.
 
 It provides powerful tools for developers and system administrators to quickly diagnose issues, visualize log distributions, and perform deep-dive analysis on complex log files.
 

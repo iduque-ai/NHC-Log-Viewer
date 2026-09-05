@@ -1,5 +1,5 @@
 {
-  "name": "NHC Log Viewer",
+  "name": "NHC Log Viewer 2.0",
   "description": "An interactive web application to upload, parse, and analyze application log files. It allows filtering by log level, date, daemon, and keywords, and visualizes the data with summary statistics.",
   "requestFramePermissions": [],
   "majorCapabilities": [
